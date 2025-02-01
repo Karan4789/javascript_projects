@@ -1,5 +1,5 @@
 
-# Basic Begineer Level Javascript Projects
+# Basic Beginner Level Javascript Projects
 
 Here are the projects that will be useful if you're starting with Javascript 
 
