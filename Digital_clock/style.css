@@ -21,7 +21,7 @@ body{
 #clock{
     font-family: 'Orbitron', sans-serif;
     font-size: 5em;
-    color: green;
+    color: rgb(212, 23, 196);
     text-align: center;
     backdrop-filter: blur(25px);
     border-radius: 6px;
