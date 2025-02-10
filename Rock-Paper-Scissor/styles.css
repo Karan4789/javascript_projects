@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    font-family:"Press Start 2P";
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    color: hsl(0, 1%, 29%);
+}
+
+.choices{
+    margin-bottom: 30px;
+}
+
+.choices button{
+    font-size: 7.5rem;
+    min-width: 165px;
+    background-color: hsl(185, 39%, 39%);
+    border: none;
+    border-radius: 180px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color ease 2s;
+}
+
+.choices button:hover{
+    background-color: hsl(185, 39%, 59%);
+}
+
+#playerDisplay,#ComputerDisplay {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+#resultDisplay{
+    font-size: 4rem;
+    margin: 50px 0px;
+}
