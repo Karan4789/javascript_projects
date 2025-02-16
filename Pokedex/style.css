@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: 
+        url(pokedex.jpeg) center no-repeat, 
+        url(background.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    background-size: auto 70vh, cover;
+}
+
+#displayname{
+    font-family: "Press Start 2P";
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#detailbtn{
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    left: 66rem;
+    top:44rem;
+    border-radius: 50%;
+    background-color: #83be2e;
+    color: hsl(85, 57%, 14%);
+    
+}
+
+#box{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 40.6em;
+}
+
+#PokemonNames{
+    width: 24rem;
+    height: 1.2rem;
+    border-radius: 10px;
+    background-color: #83be2e;
+    color: white;
+    font-family: "Press Start 2P";
+}
+
+#pokemonSprite{
+    position: relative;
+    left: 50rem;
+    top:16rem;
+    width: 200px;
+    height: 200px;
+}
