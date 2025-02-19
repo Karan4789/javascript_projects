@@ -53,3 +53,10 @@ body {
     width: 200px;
     height: 200px;
 }
+
+#type{
+    font-family: "Press Start 2P";
+    position: absolute;
+    top: 550px;
+    left: 47em;
+}
