@@ -81,21 +81,48 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function getWeatherEmoji(weatherid) {
-
         switch (true) {
             case (weatherid >= 200 && weatherid < 300):
+                document.body.style.backgroundImage = "url('assets/img1.jpg')";
+                document.body.style.backgroundSize = "cover";
+                document.body.style.backgroundRepeat = "no-repeat";
+                document.body.style.backgroundPosition = "center";
                 return "⛈️";
             case (weatherid >= 300 && weatherid < 500):
+                document.body.style.backgroundImage = "url('assets/img2.jpg')";
+                document.body.style.backgroundSize = "cover";
+                document.body.style.backgroundRepeat = "no-repeat";
+                document.body.style.backgroundPosition = "center";
                 return "🌦️";
             case (weatherid >= 500 && weatherid < 600):
+                document.body.style.backgroundImage = "url('assets/img3.jpg')";
+                document.body.style.backgroundSize = "cover";
+                document.body.style.backgroundRepeat = "no-repeat";
+                document.body.style.backgroundPosition = "center";
                 return "🌧️";
-            case (weatherid > 600 && weatherid < 700):
+            case (weatherid >= 600 && weatherid < 700):
+                document.body.style.backgroundImage = "url('assets/img4.jpg')";
+                document.body.style.backgroundSize = "cover";
+                document.body.style.backgroundRepeat = "no-repeat";
+                document.body.style.backgroundPosition = "center";
                 return "❄️";
-            case (weatherid > 700 && weatherid < 800):
+            case (weatherid >= 700 && weatherid < 800):  
+                document.body.style.backgroundImage = "url('assets/img5.jpg')";
+                document.body.style.backgroundSize = "cover";
+                document.body.style.backgroundRepeat = "no-repeat";
+                document.body.style.backgroundPosition = "center";
                 return "💨";
             case (weatherid === 800):
-                return "☀️"
+                document.body.style.backgroundImage = "url('assets/img6.jpg')";
+                document.body.style.backgroundSize = "cover";
+                document.body.style.backgroundRepeat = "no-repeat";
+                document.body.style.backgroundPosition = "center";
+                return "☀️";
             case (weatherid > 800 && weatherid < 810):
+                document.body.style.backgroundImage = "url('assets/img7.jpg')";
+                document.body.style.backgroundSize = "cover";
+                document.body.style.backgroundRepeat = "no-repeat";
+                document.body.style.backgroundPosition = "center";
                 return "☁️";
             default:
                 return "❓";
